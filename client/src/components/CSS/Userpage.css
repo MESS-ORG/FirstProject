@@ -1,0 +1,88 @@
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.user-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #274e96;
+  color: #fff;
+}
+
+.user-logo img {
+  height: 60px;
+}
+
+.user-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-nav-links li {
+  margin-right: 20px;
+}
+
+.user-nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.user-layout h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.user-buttons button {
+  padding: 10px 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  left: 550px;
+  bottom: 300px;
+}
+
+.user-buttons button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book-flight {
+  background-color: #274e96;
+  color: #fff;
+}
+
+.my-reservations {
+  background-color: #274e96;
+  color: #fff;
+}
+
+#wel {
+  position: relative;
+  left: -600px;
+  bottom: 230px;
+}
+
+  
